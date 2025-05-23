@@ -18,8 +18,8 @@ span{
 
 .actions{
   display: flex;
-  flex-direction: column; /* Apila en vertical */
-  align-items: center;     /* Centra horizontalmente */
+  flex-direction: column; 
+  align-items: center;    
   gap: 10px;
 }
 
@@ -52,17 +52,21 @@ i{
   font-size: 20px;
   height: auto;
 }
+
 .categories button{
   padding: 6px 10px;
   border-radius: 4px;
   font-size: 14px;
   cursor: pointer;
 }
+
 .intro, h1  {
   text-align: center;
   color: #71B52E;
 }
-
+p{
+  color: white;
+}
 .first-figure {
   background-color: #424040; /*615f5f #2a2a2a*/ 
   border-radius: 10px;        
@@ -77,7 +81,7 @@ i{
   border-radius: 10px;        
   padding: 1px;              
   margin: 20px auto;          
-  width: 70%;                 
+  width: 60%;                 
   text-align: center;         
 }
 
@@ -100,4 +104,68 @@ i{
   border-radius: 5px;
   border: none;
   width: 250px;
+}
+
+.combo{
+  background-color: #474747;/*615f5f #2a2a2a*/ 
+  border-radius: 10px;        
+  padding: 1px;              
+  margin: 20px auto;          
+  width: 70%;                 
+  text-align: center;   
+  display: flex;
+}
+
+.text-of-combos{
+  position: relative;
+  background-color: #474747;/*615f5f #2a2a2a*/ 
+  border-radius: 10px;        
+  padding: 1px;              
+  margin: 20px auto;          
+  width: 70%;
+  background: linear-gradient(to right, #a19d9e, #47474e, #727070 );   
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  text-align: center;              
+}
+.name-combo {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.price-combo {
+  position: absolute;  
+  bottom: 10px;        
+  right: 15px;         
+  font-size: 16px;
+  font-weight: bold;
+  color: white;   
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-text{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  flex-direction: column;
+}
+footer{
+  background-color: #424040;/*615f5f #2a2a2a*/ 
+  border-radius: 10px;        
+  padding: 1px;              
+  margin: 20px auto;          
+  width: 20%;                 
+}
+.image-combo{
+  width: 200px;
+  height: auto;
+  margin: auto;
 }
