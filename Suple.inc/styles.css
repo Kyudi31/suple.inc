@@ -37,7 +37,7 @@ span{
   cursor: pointer; 
 }
 
-.categories:hoover{
+.categories:hover{
    background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -53,7 +53,9 @@ i{
   height: auto;
 }
 
-.categories button{
+.categories , option{
+  display: flex;
+  flex-direction: column;
   padding: 6px 10px;
   border-radius: 4px;
   font-size: 14px;
@@ -168,4 +170,31 @@ footer{
   width: 200px;
   height: auto;
   margin: auto;
+}
+.dropdown {
+  margin: 1rem;
+  color: white;
+}
+
+summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.menu-cat {
+  background-color: #424040;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.menu-cat a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.menu-cat a:hover {
+  color: #71B52E;
 }
