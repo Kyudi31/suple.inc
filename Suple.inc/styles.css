@@ -198,3 +198,22 @@ summary {
 .menu-cat a:hover {
   color: #71B52E;
 }
+.image-banner{
+  width: 315px;
+  height: auto;
+  margin: auto;
+}
+
+.banner{
+  position: relative;
+  background-color: #474747;/*615f5f #2a2a2a*/ 
+  border-radius: 10px;        
+  padding: 1px;              
+  margin: 20px auto;          
+  width: 50%;
+  background: linear-gradient(to right, black, purple, green );   
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  text-align: center;            
+}
